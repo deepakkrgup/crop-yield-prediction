@@ -1,0 +1,2379 @@
+{
+  "graph_name": "Agricultural Crop-Soil-Climate Ecosystem Graph",
+  "total_nodes": 41,
+  "total_edges": 248,
+  "number_of_clusters": 3,
+  "nodes": [
+    {
+      "id": "crop_Mustard",
+      "label": "Mustard",
+      "type": "Crop",
+      "size": 35,
+      "avg_yield": 1.51,
+      "production": 71921.78,
+      "count": null,
+      "pagerank": 0.01,
+      "degree": 20,
+      "centrality": 0.5,
+      "cluster": 2
+    },
+    {
+      "id": "crop_Groundnut",
+      "label": "Groundnut",
+      "type": "Crop",
+      "size": 35,
+      "avg_yield": 1.95,
+      "production": 70502.73,
+      "count": null,
+      "pagerank": 0.0096,
+      "degree": 17,
+      "centrality": 0.425,
+      "cluster": 0
+    },
+    {
+      "id": "crop_Onion",
+      "label": "Onion",
+      "type": "Crop",
+      "size": 35,
+      "avg_yield": 15.79,
+      "production": 289562.03,
+      "count": null,
+      "pagerank": 0.0342,
+      "degree": 12,
+      "centrality": 0.3,
+      "cluster": 0
+    },
+    {
+      "id": "crop_Cotton",
+      "label": "Cotton",
+      "type": "Crop",
+      "size": 35,
+      "avg_yield": 2.0,
+      "production": 56203.12,
+      "count": null,
+      "pagerank": 0.0084,
+      "degree": 14,
+      "centrality": 0.35,
+      "cluster": 0
+    },
+    {
+      "id": "crop_Maize",
+      "label": "Maize",
+      "type": "Crop",
+      "size": 35,
+      "avg_yield": 2.93,
+      "production": 111736.42,
+      "count": null,
+      "pagerank": 0.013,
+      "degree": 19,
+      "centrality": 0.475,
+      "cluster": 2
+    },
+    {
+      "id": "crop_Pulses",
+      "label": "Pulses",
+      "type": "Crop",
+      "size": 35,
+      "avg_yield": 1.13,
+      "production": 52227.92,
+      "count": null,
+      "pagerank": 0.0082,
+      "degree": 20,
+      "centrality": 0.5,
+      "cluster": 0
+    },
+    {
+      "id": "crop_Coffee",
+      "label": "Coffee",
+      "type": "Crop",
+      "size": 35,
+      "avg_yield": 1.62,
+      "production": 29883.87,
+      "count": null,
+      "pagerank": 0.0065,
+      "degree": 11,
+      "centrality": 0.275,
+      "cluster": 1
+    },
+    {
+      "id": "crop_Potato",
+      "label": "Potato",
+      "type": "Crop",
+      "size": 35,
+      "avg_yield": 22.78,
+      "production": 751245.17,
+      "count": null,
+      "pagerank": 0.0693,
+      "degree": 17,
+      "centrality": 0.425,
+      "cluster": 2
+    },
+    {
+      "id": "crop_Soybean",
+      "label": "Soybean",
+      "type": "Crop",
+      "size": 35,
+      "avg_yield": 1.72,
+      "production": 32178.48,
+      "count": null,
+      "pagerank": 0.0069,
+      "degree": 12,
+      "centrality": 0.3,
+      "cluster": 0
+    },
+    {
+      "id": "crop_Sugarcane",
+      "label": "Sugarcane",
+      "type": "Crop",
+      "size": 35,
+      "avg_yield": 68.96,
+      "production": 2557459.41,
+      "count": null,
+      "pagerank": 0.2215,
+      "degree": 20,
+      "centrality": 0.5,
+      "cluster": 1
+    },
+    {
+      "id": "crop_Rice",
+      "label": "Rice",
+      "type": "Crop",
+      "size": 35,
+      "avg_yield": 3.38,
+      "production": 173273.44,
+      "count": null,
+      "pagerank": 0.0182,
+      "degree": 23,
+      "centrality": 0.575,
+      "cluster": 1
+    },
+    {
+      "id": "crop_Barley",
+      "label": "Barley",
+      "type": "Crop",
+      "size": 35,
+      "avg_yield": 3.14,
+      "production": 77003.47,
+      "count": null,
+      "pagerank": 0.0116,
+      "degree": 13,
+      "centrality": 0.325,
+      "cluster": 0
+    },
+    {
+      "id": "crop_Tea",
+      "label": "Tea",
+      "type": "Crop",
+      "size": 35,
+      "avg_yield": 1.95,
+      "production": 64478.96,
+      "count": null,
+      "pagerank": 0.0099,
+      "degree": 17,
+      "centrality": 0.425,
+      "cluster": 1
+    },
+    {
+      "id": "crop_Tomato",
+      "label": "Tomato",
+      "type": "Crop",
+      "size": 35,
+      "avg_yield": 18.82,
+      "production": 453576.28,
+      "count": null,
+      "pagerank": 0.044,
+      "degree": 13,
+      "centrality": 0.325,
+      "cluster": 1
+    },
+    {
+      "id": "crop_Wheat",
+      "label": "Wheat",
+      "type": "Crop",
+      "size": 35,
+      "avg_yield": 3.79,
+      "production": 174923.95,
+      "count": null,
+      "pagerank": 0.0176,
+      "degree": 20,
+      "centrality": 0.5,
+      "cluster": 0
+    },
+    {
+      "id": "soil_Alluvial",
+      "label": "Alluvial",
+      "type": "Soil",
+      "size": 28,
+      "avg_yield": 10.53,
+      "production": null,
+      "count": 9237,
+      "pagerank": 0.0276,
+      "degree": 14,
+      "centrality": 0.35,
+      "cluster": 0
+    },
+    {
+      "id": "soil_Sandy_Loam",
+      "label": "Sandy Loam",
+      "type": "Soil",
+      "size": 28,
+      "avg_yield": 8.24,
+      "production": null,
+      "count": 5161,
+      "pagerank": 0.024,
+      "degree": 11,
+      "centrality": 0.275,
+      "cluster": 2
+    },
+    {
+      "id": "soil_Red_Soil",
+      "label": "Red Soil",
+      "type": "Soil",
+      "size": 28,
+      "avg_yield": 5.56,
+      "production": null,
+      "count": 4955,
+      "pagerank": 0.026,
+      "degree": 12,
+      "centrality": 0.3,
+      "cluster": 1
+    },
+    {
+      "id": "soil_Black_Soil",
+      "label": "Black Soil",
+      "type": "Soil",
+      "size": 28,
+      "avg_yield": 12.86,
+      "production": null,
+      "count": 5067,
+      "pagerank": 0.0238,
+      "degree": 12,
+      "centrality": 0.3,
+      "cluster": 0
+    },
+    {
+      "id": "soil_Clay_Loam",
+      "label": "Clay Loam",
+      "type": "Soil",
+      "size": 28,
+      "avg_yield": 16.29,
+      "production": null,
+      "count": 3452,
+      "pagerank": 0.021,
+      "degree": 10,
+      "centrality": 0.25,
+      "cluster": 0
+    },
+    {
+      "id": "soil_Laterite_Soil",
+      "label": "Laterite Soil",
+      "type": "Soil",
+      "size": 28,
+      "avg_yield": 5.34,
+      "production": null,
+      "count": 2128,
+      "pagerank": 0.0213,
+      "degree": 11,
+      "centrality": 0.275,
+      "cluster": 1
+    },
+    {
+      "id": "state_Rajasthan",
+      "label": "Rajasthan",
+      "type": "State",
+      "size": 24,
+      "avg_yield": 2.04,
+      "production": 72796.47,
+      "count": null,
+      "pagerank": 0.0062,
+      "degree": 5,
+      "centrality": 0.125,
+      "cluster": 0
+    },
+    {
+      "id": "state_Maharashtra",
+      "label": "Maharashtra",
+      "type": "State",
+      "size": 24,
+      "avg_yield": 13.71,
+      "production": 509366.51,
+      "count": null,
+      "pagerank": 0.018,
+      "degree": 7,
+      "centrality": 0.175,
+      "cluster": 0
+    },
+    {
+      "id": "state_Tamil_Nadu",
+      "label": "Tamil Nadu",
+      "type": "State",
+      "size": 24,
+      "avg_yield": 11.14,
+      "production": 376517.07,
+      "count": null,
+      "pagerank": 0.0294,
+      "degree": 15,
+      "centrality": 0.375,
+      "cluster": 0
+    },
+    {
+      "id": "state_Kerala",
+      "label": "Kerala",
+      "type": "State",
+      "size": 24,
+      "avg_yield": 13.29,
+      "production": 467920.59,
+      "count": null,
+      "pagerank": 0.0184,
+      "degree": 7,
+      "centrality": 0.175,
+      "cluster": 1
+    },
+    {
+      "id": "state_Haryana",
+      "label": "Haryana",
+      "type": "State",
+      "size": 24,
+      "avg_yield": 6.22,
+      "production": 186500.96,
+      "count": null,
+      "pagerank": 0.0117,
+      "degree": 7,
+      "centrality": 0.175,
+      "cluster": 0
+    },
+    {
+      "id": "state_Bihar",
+      "label": "Bihar",
+      "type": "State",
+      "size": 24,
+      "avg_yield": 12.85,
+      "production": 400948.52,
+      "count": null,
+      "pagerank": 0.0178,
+      "degree": 7,
+      "centrality": 0.175,
+      "cluster": 2
+    },
+    {
+      "id": "state_Assam",
+      "label": "Assam",
+      "type": "State",
+      "size": 24,
+      "avg_yield": 1.89,
+      "production": 59952.15,
+      "count": null,
+      "pagerank": 0.0055,
+      "degree": 4,
+      "centrality": 0.1,
+      "cluster": 1
+    },
+    {
+      "id": "state_Uttar_Pradesh",
+      "label": "Uttar Pradesh",
+      "type": "State",
+      "size": 24,
+      "avg_yield": 15.87,
+      "production": 529196.41,
+      "count": null,
+      "pagerank": 0.0197,
+      "degree": 7,
+      "centrality": 0.175,
+      "cluster": 2
+    },
+    {
+      "id": "state_Telangana",
+      "label": "Telangana",
+      "type": "State",
+      "size": 24,
+      "avg_yield": 9.79,
+      "production": 305021.0,
+      "count": null,
+      "pagerank": 0.0277,
+      "degree": 15,
+      "centrality": 0.375,
+      "cluster": 2
+    },
+    {
+      "id": "state_Andhra_Pradesh",
+      "label": "Andhra Pradesh",
+      "type": "State",
+      "size": 24,
+      "avg_yield": 9.55,
+      "production": 290963.56,
+      "count": null,
+      "pagerank": 0.0286,
+      "degree": 15,
+      "centrality": 0.375,
+      "cluster": 0
+    },
+    {
+      "id": "state_West_Bengal",
+      "label": "West Bengal",
+      "type": "State",
+      "size": 24,
+      "avg_yield": 8.12,
+      "production": 298544.99,
+      "count": null,
+      "pagerank": 0.0118,
+      "degree": 6,
+      "centrality": 0.15,
+      "cluster": 1
+    },
+    {
+      "id": "state_Madhya_Pradesh",
+      "label": "Madhya Pradesh",
+      "type": "State",
+      "size": 24,
+      "avg_yield": 9.64,
+      "production": 299418.74,
+      "count": null,
+      "pagerank": 0.0266,
+      "degree": 15,
+      "centrality": 0.375,
+      "cluster": 1
+    },
+    {
+      "id": "state_Punjab",
+      "label": "Punjab",
+      "type": "State",
+      "size": 24,
+      "avg_yield": 6.46,
+      "production": 219886.74,
+      "count": null,
+      "pagerank": 0.0119,
+      "degree": 7,
+      "centrality": 0.175,
+      "cluster": 2
+    },
+    {
+      "id": "state_Karnataka",
+      "label": "Karnataka",
+      "type": "State",
+      "size": 24,
+      "avg_yield": 14.37,
+      "production": 474747.19,
+      "count": null,
+      "pagerank": 0.019,
+      "degree": 7,
+      "centrality": 0.175,
+      "cluster": 1
+    },
+    {
+      "id": "state_Gujarat",
+      "label": "Gujarat",
+      "type": "State",
+      "size": 24,
+      "avg_yield": 14.53,
+      "production": 474396.13,
+      "count": null,
+      "pagerank": 0.0188,
+      "degree": 7,
+      "centrality": 0.175,
+      "cluster": 0
+    },
+    {
+      "id": "climate_Semi-Arid_Moderate",
+      "label": "Semi-Arid Moderate",
+      "type": "Climate",
+      "size": 22,
+      "avg_yield": null,
+      "production": null,
+      "count": 12814,
+      "pagerank": 0.026,
+      "degree": 13,
+      "centrality": 0.325,
+      "cluster": 0
+    },
+    {
+      "id": "climate_Humid_Subtropical",
+      "label": "Humid Subtropical",
+      "type": "Climate",
+      "size": 22,
+      "avg_yield": null,
+      "production": null,
+      "count": 3099,
+      "pagerank": 0.0161,
+      "degree": 7,
+      "centrality": 0.175,
+      "cluster": 0
+    },
+    {
+      "id": "climate_Tropical_Wet___Monsoon",
+      "label": "Tropical Wet / Monsoon",
+      "type": "Climate",
+      "size": 22,
+      "avg_yield": null,
+      "production": null,
+      "count": 4482,
+      "pagerank": 0.0151,
+      "degree": 4,
+      "centrality": 0.1,
+      "cluster": 1
+    },
+    {
+      "id": "climate_Cool_Temperate___Subtropical",
+      "label": "Cool Temperate / Subtropical",
+      "type": "Climate",
+      "size": 22,
+      "avg_yield": null,
+      "production": null,
+      "count": 7729,
+      "pagerank": 0.0258,
+      "degree": 13,
+      "centrality": 0.325,
+      "cluster": 1
+    },
+    {
+      "id": "climate_Arid_&_Semi-Arid",
+      "label": "Arid & Semi-Arid",
+      "type": "Climate",
+      "size": 22,
+      "avg_yield": null,
+      "production": null,
+      "count": 1876,
+      "pagerank": 0.0129,
+      "degree": 10,
+      "centrality": 0.25,
+      "cluster": 0
+    }
+  ],
+  "edges": [
+    {
+      "source": "crop_Mustard",
+      "target": "soil_Alluvial",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 1.51,
+      "frequency": 1282
+    },
+    {
+      "source": "crop_Mustard",
+      "target": "soil_Black_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 1.52,
+      "frequency": 80
+    },
+    {
+      "source": "crop_Mustard",
+      "target": "soil_Clay_Loam",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 1.55,
+      "frequency": 72
+    },
+    {
+      "source": "crop_Mustard",
+      "target": "soil_Laterite_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 1.51,
+      "frequency": 82
+    },
+    {
+      "source": "crop_Mustard",
+      "target": "soil_Red_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 1.51,
+      "frequency": 89
+    },
+    {
+      "source": "crop_Mustard",
+      "target": "soil_Sandy_Loam",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 1.51,
+      "frequency": 1286
+    },
+    {
+      "source": "crop_Mustard",
+      "target": "state_Andhra_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.53,
+      "frequency": null
+    },
+    {
+      "source": "crop_Mustard",
+      "target": "state_Assam",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.41,
+      "frequency": null
+    },
+    {
+      "source": "crop_Mustard",
+      "target": "state_Bihar",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.36,
+      "frequency": null
+    },
+    {
+      "source": "crop_Mustard",
+      "target": "state_Haryana",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.73,
+      "frequency": null
+    },
+    {
+      "source": "crop_Mustard",
+      "target": "state_Madhya_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.42,
+      "frequency": null
+    },
+    {
+      "source": "crop_Mustard",
+      "target": "state_Punjab",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.79,
+      "frequency": null
+    },
+    {
+      "source": "crop_Mustard",
+      "target": "state_Rajasthan",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.37,
+      "frequency": null
+    },
+    {
+      "source": "crop_Mustard",
+      "target": "state_Tamil_Nadu",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.61,
+      "frequency": null
+    },
+    {
+      "source": "crop_Mustard",
+      "target": "state_Telangana",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.51,
+      "frequency": null
+    },
+    {
+      "source": "crop_Mustard",
+      "target": "state_Uttar_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.53,
+      "frequency": null
+    },
+    {
+      "source": "crop_Mustard",
+      "target": "state_West_Bengal",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.53,
+      "frequency": null
+    },
+    {
+      "source": "crop_Mustard",
+      "target": "climate_Arid_&_Semi-Arid",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 1.44,
+      "frequency": null
+    },
+    {
+      "source": "crop_Mustard",
+      "target": "climate_Cool_Temperate___Subtropical",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 1.52,
+      "frequency": null
+    },
+    {
+      "source": "crop_Mustard",
+      "target": "climate_Semi-Arid_Moderate",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 1.54,
+      "frequency": null
+    },
+    {
+      "source": "crop_Groundnut",
+      "target": "soil_Alluvial",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 1.95,
+      "frequency": 637
+    },
+    {
+      "source": "crop_Groundnut",
+      "target": "soil_Black_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 1.95,
+      "frequency": 58
+    },
+    {
+      "source": "crop_Groundnut",
+      "target": "soil_Clay_Loam",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 1.92,
+      "frequency": 62
+    },
+    {
+      "source": "crop_Groundnut",
+      "target": "soil_Laterite_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 1.91,
+      "frequency": 61
+    },
+    {
+      "source": "crop_Groundnut",
+      "target": "soil_Red_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 1.95,
+      "frequency": 661
+    },
+    {
+      "source": "crop_Groundnut",
+      "target": "soil_Sandy_Loam",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 1.95,
+      "frequency": 653
+    },
+    {
+      "source": "crop_Groundnut",
+      "target": "state_Andhra_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 2.03,
+      "frequency": null
+    },
+    {
+      "source": "crop_Groundnut",
+      "target": "state_Gujarat",
+      "relationship": "CULTIVATED_IN",
+      "weight": 2.07,
+      "frequency": null
+    },
+    {
+      "source": "crop_Groundnut",
+      "target": "state_Karnataka",
+      "relationship": "CULTIVATED_IN",
+      "weight": 2.0,
+      "frequency": null
+    },
+    {
+      "source": "crop_Groundnut",
+      "target": "state_Kerala",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.92,
+      "frequency": null
+    },
+    {
+      "source": "crop_Groundnut",
+      "target": "state_Madhya_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.89,
+      "frequency": null
+    },
+    {
+      "source": "crop_Groundnut",
+      "target": "state_Maharashtra",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.94,
+      "frequency": null
+    },
+    {
+      "source": "crop_Groundnut",
+      "target": "state_Rajasthan",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.79,
+      "frequency": null
+    },
+    {
+      "source": "crop_Groundnut",
+      "target": "state_Tamil_Nadu",
+      "relationship": "CULTIVATED_IN",
+      "weight": 2.14,
+      "frequency": null
+    },
+    {
+      "source": "crop_Groundnut",
+      "target": "state_Telangana",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.96,
+      "frequency": null
+    },
+    {
+      "source": "crop_Groundnut",
+      "target": "climate_Arid_&_Semi-Arid",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 1.84,
+      "frequency": null
+    },
+    {
+      "source": "crop_Groundnut",
+      "target": "climate_Semi-Arid_Moderate",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 1.97,
+      "frequency": null
+    },
+    {
+      "source": "crop_Onion",
+      "target": "soil_Alluvial",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 15.83,
+      "frequency": 326
+    },
+    {
+      "source": "crop_Onion",
+      "target": "soil_Black_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 15.83,
+      "frequency": 328
+    },
+    {
+      "source": "crop_Onion",
+      "target": "soil_Red_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 15.76,
+      "frequency": 344
+    },
+    {
+      "source": "crop_Onion",
+      "target": "state_Andhra_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 16.0,
+      "frequency": null
+    },
+    {
+      "source": "crop_Onion",
+      "target": "state_Gujarat",
+      "relationship": "CULTIVATED_IN",
+      "weight": 16.32,
+      "frequency": null
+    },
+    {
+      "source": "crop_Onion",
+      "target": "state_Madhya_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 14.74,
+      "frequency": null
+    },
+    {
+      "source": "crop_Onion",
+      "target": "state_Maharashtra",
+      "relationship": "CULTIVATED_IN",
+      "weight": 15.43,
+      "frequency": null
+    },
+    {
+      "source": "crop_Onion",
+      "target": "state_Tamil_Nadu",
+      "relationship": "CULTIVATED_IN",
+      "weight": 16.53,
+      "frequency": null
+    },
+    {
+      "source": "crop_Onion",
+      "target": "state_Telangana",
+      "relationship": "CULTIVATED_IN",
+      "weight": 15.72,
+      "frequency": null
+    },
+    {
+      "source": "crop_Onion",
+      "target": "climate_Arid_&_Semi-Arid",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 14.79,
+      "frequency": null
+    },
+    {
+      "source": "crop_Onion",
+      "target": "climate_Cool_Temperate___Subtropical",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 15.17,
+      "frequency": null
+    },
+    {
+      "source": "crop_Onion",
+      "target": "climate_Semi-Arid_Moderate",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 16.16,
+      "frequency": null
+    },
+    {
+      "source": "crop_Cotton",
+      "target": "soil_Alluvial",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 2.01,
+      "frequency": 717
+    },
+    {
+      "source": "crop_Cotton",
+      "target": "soil_Black_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 1.99,
+      "frequency": 714
+    },
+    {
+      "source": "crop_Cotton",
+      "target": "soil_Laterite_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 2.05,
+      "frequency": 57
+    },
+    {
+      "source": "crop_Cotton",
+      "target": "state_Andhra_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.94,
+      "frequency": null
+    },
+    {
+      "source": "crop_Cotton",
+      "target": "state_Gujarat",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.95,
+      "frequency": null
+    },
+    {
+      "source": "crop_Cotton",
+      "target": "state_Haryana",
+      "relationship": "CULTIVATED_IN",
+      "weight": 2.16,
+      "frequency": null
+    },
+    {
+      "source": "crop_Cotton",
+      "target": "state_Madhya_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.75,
+      "frequency": null
+    },
+    {
+      "source": "crop_Cotton",
+      "target": "state_Maharashtra",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.87,
+      "frequency": null
+    },
+    {
+      "source": "crop_Cotton",
+      "target": "state_Punjab",
+      "relationship": "CULTIVATED_IN",
+      "weight": 2.21,
+      "frequency": null
+    },
+    {
+      "source": "crop_Cotton",
+      "target": "state_Tamil_Nadu",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.99,
+      "frequency": null
+    },
+    {
+      "source": "crop_Cotton",
+      "target": "state_Telangana",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.88,
+      "frequency": null
+    },
+    {
+      "source": "crop_Cotton",
+      "target": "climate_Arid_&_Semi-Arid",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 1.82,
+      "frequency": null
+    },
+    {
+      "source": "crop_Cotton",
+      "target": "climate_Humid_Subtropical",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 1.9,
+      "frequency": null
+    },
+    {
+      "source": "crop_Cotton",
+      "target": "climate_Semi-Arid_Moderate",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 2.02,
+      "frequency": null
+    },
+    {
+      "source": "crop_Maize",
+      "target": "soil_Alluvial",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 2.92,
+      "frequency": 692
+    },
+    {
+      "source": "crop_Maize",
+      "target": "soil_Black_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 2.94,
+      "frequency": 707
+    },
+    {
+      "source": "crop_Maize",
+      "target": "soil_Laterite_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 2.83,
+      "frequency": 59
+    },
+    {
+      "source": "crop_Maize",
+      "target": "soil_Red_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 2.95,
+      "frequency": 688
+    },
+    {
+      "source": "crop_Maize",
+      "target": "soil_Sandy_Loam",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 2.9,
+      "frequency": 74
+    },
+    {
+      "source": "crop_Maize",
+      "target": "state_Andhra_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 2.91,
+      "frequency": null
+    },
+    {
+      "source": "crop_Maize",
+      "target": "state_Bihar",
+      "relationship": "CULTIVATED_IN",
+      "weight": 2.55,
+      "frequency": null
+    },
+    {
+      "source": "crop_Maize",
+      "target": "state_Haryana",
+      "relationship": "CULTIVATED_IN",
+      "weight": 3.24,
+      "frequency": null
+    },
+    {
+      "source": "crop_Maize",
+      "target": "state_Karnataka",
+      "relationship": "CULTIVATED_IN",
+      "weight": 2.86,
+      "frequency": null
+    },
+    {
+      "source": "crop_Maize",
+      "target": "state_Kerala",
+      "relationship": "CULTIVATED_IN",
+      "weight": 2.75,
+      "frequency": null
+    },
+    {
+      "source": "crop_Maize",
+      "target": "state_Madhya_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 2.72,
+      "frequency": null
+    },
+    {
+      "source": "crop_Maize",
+      "target": "state_Punjab",
+      "relationship": "CULTIVATED_IN",
+      "weight": 3.35,
+      "frequency": null
+    },
+    {
+      "source": "crop_Maize",
+      "target": "state_Tamil_Nadu",
+      "relationship": "CULTIVATED_IN",
+      "weight": 3.03,
+      "frequency": null
+    },
+    {
+      "source": "crop_Maize",
+      "target": "state_Telangana",
+      "relationship": "CULTIVATED_IN",
+      "weight": 2.88,
+      "frequency": null
+    },
+    {
+      "source": "crop_Maize",
+      "target": "state_Uttar_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 2.88,
+      "frequency": null
+    },
+    {
+      "source": "crop_Maize",
+      "target": "climate_Arid_&_Semi-Arid",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 2.72,
+      "frequency": null
+    },
+    {
+      "source": "crop_Maize",
+      "target": "climate_Cool_Temperate___Subtropical",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 2.77,
+      "frequency": null
+    },
+    {
+      "source": "crop_Maize",
+      "target": "climate_Humid_Subtropical",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 2.88,
+      "frequency": null
+    },
+    {
+      "source": "crop_Maize",
+      "target": "climate_Semi-Arid_Moderate",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 3.0,
+      "frequency": null
+    },
+    {
+      "source": "crop_Pulses",
+      "target": "soil_Alluvial",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 1.13,
+      "frequency": 854
+    },
+    {
+      "source": "crop_Pulses",
+      "target": "soil_Black_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 1.13,
+      "frequency": 901
+    },
+    {
+      "source": "crop_Pulses",
+      "target": "soil_Clay_Loam",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 1.12,
+      "frequency": 89
+    },
+    {
+      "source": "crop_Pulses",
+      "target": "soil_Laterite_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 1.12,
+      "frequency": 74
+    },
+    {
+      "source": "crop_Pulses",
+      "target": "soil_Red_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 1.13,
+      "frequency": 897
+    },
+    {
+      "source": "crop_Pulses",
+      "target": "soil_Sandy_Loam",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 1.13,
+      "frequency": 67
+    },
+    {
+      "source": "crop_Pulses",
+      "target": "state_Andhra_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.19,
+      "frequency": null
+    },
+    {
+      "source": "crop_Pulses",
+      "target": "state_Assam",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.07,
+      "frequency": null
+    },
+    {
+      "source": "crop_Pulses",
+      "target": "state_Bihar",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.05,
+      "frequency": null
+    },
+    {
+      "source": "crop_Pulses",
+      "target": "state_Gujarat",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.22,
+      "frequency": null
+    },
+    {
+      "source": "crop_Pulses",
+      "target": "state_Madhya_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.1,
+      "frequency": null
+    },
+    {
+      "source": "crop_Pulses",
+      "target": "state_Maharashtra",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.14,
+      "frequency": null
+    },
+    {
+      "source": "crop_Pulses",
+      "target": "state_Rajasthan",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.06,
+      "frequency": null
+    },
+    {
+      "source": "crop_Pulses",
+      "target": "state_Tamil_Nadu",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.25,
+      "frequency": null
+    },
+    {
+      "source": "crop_Pulses",
+      "target": "state_Telangana",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.14,
+      "frequency": null
+    },
+    {
+      "source": "crop_Pulses",
+      "target": "state_Uttar_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.18,
+      "frequency": null
+    },
+    {
+      "source": "crop_Pulses",
+      "target": "state_West_Bengal",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.15,
+      "frequency": null
+    },
+    {
+      "source": "crop_Pulses",
+      "target": "climate_Arid_&_Semi-Arid",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 1.08,
+      "frequency": null
+    },
+    {
+      "source": "crop_Pulses",
+      "target": "climate_Cool_Temperate___Subtropical",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 1.09,
+      "frequency": null
+    },
+    {
+      "source": "crop_Pulses",
+      "target": "climate_Semi-Arid_Moderate",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 1.15,
+      "frequency": null
+    },
+    {
+      "source": "crop_Coffee",
+      "target": "soil_Laterite_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 1.61,
+      "frequency": 482
+    },
+    {
+      "source": "crop_Coffee",
+      "target": "soil_Red_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 1.63,
+      "frequency": 513
+    },
+    {
+      "source": "crop_Coffee",
+      "target": "state_Andhra_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.69,
+      "frequency": null
+    },
+    {
+      "source": "crop_Coffee",
+      "target": "state_Karnataka",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.63,
+      "frequency": null
+    },
+    {
+      "source": "crop_Coffee",
+      "target": "state_Kerala",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.57,
+      "frequency": null
+    },
+    {
+      "source": "crop_Coffee",
+      "target": "state_Madhya_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.53,
+      "frequency": null
+    },
+    {
+      "source": "crop_Coffee",
+      "target": "state_Tamil_Nadu",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.72,
+      "frequency": null
+    },
+    {
+      "source": "crop_Coffee",
+      "target": "state_Telangana",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.62,
+      "frequency": null
+    },
+    {
+      "source": "crop_Coffee",
+      "target": "climate_Cool_Temperate___Subtropical",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 1.56,
+      "frequency": null
+    },
+    {
+      "source": "crop_Coffee",
+      "target": "climate_Humid_Subtropical",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 1.61,
+      "frequency": null
+    },
+    {
+      "source": "crop_Coffee",
+      "target": "climate_Tropical_Wet___Monsoon",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 1.65,
+      "frequency": null
+    },
+    {
+      "source": "crop_Potato",
+      "target": "soil_Alluvial",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 22.68,
+      "frequency": 852
+    },
+    {
+      "source": "crop_Potato",
+      "target": "soil_Black_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 22.69,
+      "frequency": 61
+    },
+    {
+      "source": "crop_Potato",
+      "target": "soil_Clay_Loam",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 22.64,
+      "frequency": 59
+    },
+    {
+      "source": "crop_Potato",
+      "target": "soil_Laterite_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 23.36,
+      "frequency": 64
+    },
+    {
+      "source": "crop_Potato",
+      "target": "soil_Red_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 22.7,
+      "frequency": 56
+    },
+    {
+      "source": "crop_Potato",
+      "target": "soil_Sandy_Loam",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 22.84,
+      "frequency": 887
+    },
+    {
+      "source": "crop_Potato",
+      "target": "state_Andhra_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 22.74,
+      "frequency": null
+    },
+    {
+      "source": "crop_Potato",
+      "target": "state_Bihar",
+      "relationship": "CULTIVATED_IN",
+      "weight": 19.89,
+      "frequency": null
+    },
+    {
+      "source": "crop_Potato",
+      "target": "state_Haryana",
+      "relationship": "CULTIVATED_IN",
+      "weight": 25.27,
+      "frequency": null
+    },
+    {
+      "source": "crop_Potato",
+      "target": "state_Madhya_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 20.97,
+      "frequency": null
+    },
+    {
+      "source": "crop_Potato",
+      "target": "state_Punjab",
+      "relationship": "CULTIVATED_IN",
+      "weight": 26.05,
+      "frequency": null
+    },
+    {
+      "source": "crop_Potato",
+      "target": "state_Tamil_Nadu",
+      "relationship": "CULTIVATED_IN",
+      "weight": 23.38,
+      "frequency": null
+    },
+    {
+      "source": "crop_Potato",
+      "target": "state_Telangana",
+      "relationship": "CULTIVATED_IN",
+      "weight": 21.9,
+      "frequency": null
+    },
+    {
+      "source": "crop_Potato",
+      "target": "state_Uttar_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 22.49,
+      "frequency": null
+    },
+    {
+      "source": "crop_Potato",
+      "target": "state_West_Bengal",
+      "relationship": "CULTIVATED_IN",
+      "weight": 21.64,
+      "frequency": null
+    },
+    {
+      "source": "crop_Potato",
+      "target": "climate_Cool_Temperate___Subtropical",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 22.9,
+      "frequency": null
+    },
+    {
+      "source": "crop_Potato",
+      "target": "climate_Semi-Arid_Moderate",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 22.51,
+      "frequency": null
+    },
+    {
+      "source": "crop_Soybean",
+      "target": "soil_Alluvial",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 1.72,
+      "frequency": 316
+    },
+    {
+      "source": "crop_Soybean",
+      "target": "soil_Black_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 1.72,
+      "frequency": 307
+    },
+    {
+      "source": "crop_Soybean",
+      "target": "soil_Clay_Loam",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 1.71,
+      "frequency": 352
+    },
+    {
+      "source": "crop_Soybean",
+      "target": "state_Andhra_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.74,
+      "frequency": null
+    },
+    {
+      "source": "crop_Soybean",
+      "target": "state_Gujarat",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.78,
+      "frequency": null
+    },
+    {
+      "source": "crop_Soybean",
+      "target": "state_Madhya_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.61,
+      "frequency": null
+    },
+    {
+      "source": "crop_Soybean",
+      "target": "state_Maharashtra",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.66,
+      "frequency": null
+    },
+    {
+      "source": "crop_Soybean",
+      "target": "state_Tamil_Nadu",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.84,
+      "frequency": null
+    },
+    {
+      "source": "crop_Soybean",
+      "target": "state_Telangana",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.69,
+      "frequency": null
+    },
+    {
+      "source": "crop_Soybean",
+      "target": "climate_Cool_Temperate___Subtropical",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 1.62,
+      "frequency": null
+    },
+    {
+      "source": "crop_Soybean",
+      "target": "climate_Humid_Subtropical",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 1.69,
+      "frequency": null
+    },
+    {
+      "source": "crop_Soybean",
+      "target": "climate_Semi-Arid_Moderate",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 1.74,
+      "frequency": null
+    },
+    {
+      "source": "crop_Sugarcane",
+      "target": "soil_Alluvial",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 69.48,
+      "frequency": 692
+    },
+    {
+      "source": "crop_Sugarcane",
+      "target": "soil_Black_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 68.78,
+      "frequency": 709
+    },
+    {
+      "source": "crop_Sugarcane",
+      "target": "soil_Clay_Loam",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 68.94,
+      "frequency": 660
+    },
+    {
+      "source": "crop_Sugarcane",
+      "target": "soil_Laterite_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 67.85,
+      "frequency": 70
+    },
+    {
+      "source": "crop_Sugarcane",
+      "target": "soil_Red_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 67.49,
+      "frequency": 63
+    },
+    {
+      "source": "crop_Sugarcane",
+      "target": "soil_Sandy_Loam",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 68.17,
+      "frequency": 69
+    },
+    {
+      "source": "crop_Sugarcane",
+      "target": "state_Andhra_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 71.84,
+      "frequency": null
+    },
+    {
+      "source": "crop_Sugarcane",
+      "target": "state_Bihar",
+      "relationship": "CULTIVATED_IN",
+      "weight": 62.79,
+      "frequency": null
+    },
+    {
+      "source": "crop_Sugarcane",
+      "target": "state_Gujarat",
+      "relationship": "CULTIVATED_IN",
+      "weight": 72.29,
+      "frequency": null
+    },
+    {
+      "source": "crop_Sugarcane",
+      "target": "state_Karnataka",
+      "relationship": "CULTIVATED_IN",
+      "weight": 69.74,
+      "frequency": null
+    },
+    {
+      "source": "crop_Sugarcane",
+      "target": "state_Kerala",
+      "relationship": "CULTIVATED_IN",
+      "weight": 67.17,
+      "frequency": null
+    },
+    {
+      "source": "crop_Sugarcane",
+      "target": "state_Madhya_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 65.79,
+      "frequency": null
+    },
+    {
+      "source": "crop_Sugarcane",
+      "target": "state_Maharashtra",
+      "relationship": "CULTIVATED_IN",
+      "weight": 68.56,
+      "frequency": null
+    },
+    {
+      "source": "crop_Sugarcane",
+      "target": "state_Tamil_Nadu",
+      "relationship": "CULTIVATED_IN",
+      "weight": 73.78,
+      "frequency": null
+    },
+    {
+      "source": "crop_Sugarcane",
+      "target": "state_Telangana",
+      "relationship": "CULTIVATED_IN",
+      "weight": 68.34,
+      "frequency": null
+    },
+    {
+      "source": "crop_Sugarcane",
+      "target": "state_Uttar_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 70.85,
+      "frequency": null
+    },
+    {
+      "source": "crop_Sugarcane",
+      "target": "climate_Cool_Temperate___Subtropical",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 63.15,
+      "frequency": null
+    },
+    {
+      "source": "crop_Sugarcane",
+      "target": "climate_Humid_Subtropical",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 66.82,
+      "frequency": null
+    },
+    {
+      "source": "crop_Sugarcane",
+      "target": "climate_Semi-Arid_Moderate",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 61.34,
+      "frequency": null
+    },
+    {
+      "source": "crop_Sugarcane",
+      "target": "climate_Tropical_Wet___Monsoon",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 70.59,
+      "frequency": null
+    },
+    {
+      "source": "crop_Rice",
+      "target": "soil_Alluvial",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 3.4,
+      "frequency": 902
+    },
+    {
+      "source": "crop_Rice",
+      "target": "soil_Black_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 3.38,
+      "frequency": 957
+    },
+    {
+      "source": "crop_Rice",
+      "target": "soil_Clay_Loam",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 3.38,
+      "frequency": 971
+    },
+    {
+      "source": "crop_Rice",
+      "target": "soil_Laterite_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 3.34,
+      "frequency": 85
+    },
+    {
+      "source": "crop_Rice",
+      "target": "soil_Red_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 3.26,
+      "frequency": 93
+    },
+    {
+      "source": "crop_Rice",
+      "target": "soil_Sandy_Loam",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 3.34,
+      "frequency": 102
+    },
+    {
+      "source": "crop_Rice",
+      "target": "state_Andhra_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 3.41,
+      "frequency": null
+    },
+    {
+      "source": "crop_Rice",
+      "target": "state_Assam",
+      "relationship": "CULTIVATED_IN",
+      "weight": 3.1,
+      "frequency": null
+    },
+    {
+      "source": "crop_Rice",
+      "target": "state_Bihar",
+      "relationship": "CULTIVATED_IN",
+      "weight": 2.98,
+      "frequency": null
+    },
+    {
+      "source": "crop_Rice",
+      "target": "state_Haryana",
+      "relationship": "CULTIVATED_IN",
+      "weight": 3.85,
+      "frequency": null
+    },
+    {
+      "source": "crop_Rice",
+      "target": "state_Karnataka",
+      "relationship": "CULTIVATED_IN",
+      "weight": 3.35,
+      "frequency": null
+    },
+    {
+      "source": "crop_Rice",
+      "target": "state_Kerala",
+      "relationship": "CULTIVATED_IN",
+      "weight": 3.25,
+      "frequency": null
+    },
+    {
+      "source": "crop_Rice",
+      "target": "state_Madhya_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 3.22,
+      "frequency": null
+    },
+    {
+      "source": "crop_Rice",
+      "target": "state_Punjab",
+      "relationship": "CULTIVATED_IN",
+      "weight": 3.96,
+      "frequency": null
+    },
+    {
+      "source": "crop_Rice",
+      "target": "state_Tamil_Nadu",
+      "relationship": "CULTIVATED_IN",
+      "weight": 3.6,
+      "frequency": null
+    },
+    {
+      "source": "crop_Rice",
+      "target": "state_Telangana",
+      "relationship": "CULTIVATED_IN",
+      "weight": 3.38,
+      "frequency": null
+    },
+    {
+      "source": "crop_Rice",
+      "target": "state_Uttar_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 3.43,
+      "frequency": null
+    },
+    {
+      "source": "crop_Rice",
+      "target": "state_West_Bengal",
+      "relationship": "CULTIVATED_IN",
+      "weight": 3.36,
+      "frequency": null
+    },
+    {
+      "source": "crop_Rice",
+      "target": "climate_Arid_&_Semi-Arid",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 2.75,
+      "frequency": null
+    },
+    {
+      "source": "crop_Rice",
+      "target": "climate_Cool_Temperate___Subtropical",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 3.03,
+      "frequency": null
+    },
+    {
+      "source": "crop_Rice",
+      "target": "climate_Humid_Subtropical",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 3.48,
+      "frequency": null
+    },
+    {
+      "source": "crop_Rice",
+      "target": "climate_Semi-Arid_Moderate",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 3.14,
+      "frequency": null
+    },
+    {
+      "source": "crop_Rice",
+      "target": "climate_Tropical_Wet___Monsoon",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 3.45,
+      "frequency": null
+    },
+    {
+      "source": "crop_Barley",
+      "target": "soil_Alluvial",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 3.15,
+      "frequency": 654
+    },
+    {
+      "source": "crop_Barley",
+      "target": "soil_Clay_Loam",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 3.01,
+      "frequency": 59
+    },
+    {
+      "source": "crop_Barley",
+      "target": "soil_Sandy_Loam",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 3.15,
+      "frequency": 611
+    },
+    {
+      "source": "crop_Barley",
+      "target": "state_Andhra_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 3.11,
+      "frequency": null
+    },
+    {
+      "source": "crop_Barley",
+      "target": "state_Haryana",
+      "relationship": "CULTIVATED_IN",
+      "weight": 3.44,
+      "frequency": null
+    },
+    {
+      "source": "crop_Barley",
+      "target": "state_Madhya_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 2.9,
+      "frequency": null
+    },
+    {
+      "source": "crop_Barley",
+      "target": "state_Punjab",
+      "relationship": "CULTIVATED_IN",
+      "weight": 3.55,
+      "frequency": null
+    },
+    {
+      "source": "crop_Barley",
+      "target": "state_Rajasthan",
+      "relationship": "CULTIVATED_IN",
+      "weight": 2.75,
+      "frequency": null
+    },
+    {
+      "source": "crop_Barley",
+      "target": "state_Tamil_Nadu",
+      "relationship": "CULTIVATED_IN",
+      "weight": 3.23,
+      "frequency": null
+    },
+    {
+      "source": "crop_Barley",
+      "target": "state_Telangana",
+      "relationship": "CULTIVATED_IN",
+      "weight": 3.0,
+      "frequency": null
+    },
+    {
+      "source": "crop_Barley",
+      "target": "climate_Arid_&_Semi-Arid",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 2.99,
+      "frequency": null
+    },
+    {
+      "source": "crop_Barley",
+      "target": "climate_Cool_Temperate___Subtropical",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 3.14,
+      "frequency": null
+    },
+    {
+      "source": "crop_Barley",
+      "target": "climate_Semi-Arid_Moderate",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 3.17,
+      "frequency": null
+    },
+    {
+      "source": "crop_Tea",
+      "target": "soil_Alluvial",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 1.91,
+      "frequency": 57
+    },
+    {
+      "source": "crop_Tea",
+      "target": "soil_Black_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 1.94,
+      "frequency": 65
+    },
+    {
+      "source": "crop_Tea",
+      "target": "soil_Clay_Loam",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 1.94,
+      "frequency": 59
+    },
+    {
+      "source": "crop_Tea",
+      "target": "soil_Laterite_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 1.96,
+      "frequency": 857
+    },
+    {
+      "source": "crop_Tea",
+      "target": "soil_Red_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 1.95,
+      "frequency": 873
+    },
+    {
+      "source": "crop_Tea",
+      "target": "soil_Sandy_Loam",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 1.91,
+      "frequency": 61
+    },
+    {
+      "source": "crop_Tea",
+      "target": "state_Andhra_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 2.04,
+      "frequency": null
+    },
+    {
+      "source": "crop_Tea",
+      "target": "state_Assam",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.85,
+      "frequency": null
+    },
+    {
+      "source": "crop_Tea",
+      "target": "state_Karnataka",
+      "relationship": "CULTIVATED_IN",
+      "weight": 2.01,
+      "frequency": null
+    },
+    {
+      "source": "crop_Tea",
+      "target": "state_Kerala",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.94,
+      "frequency": null
+    },
+    {
+      "source": "crop_Tea",
+      "target": "state_Madhya_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.89,
+      "frequency": null
+    },
+    {
+      "source": "crop_Tea",
+      "target": "state_Tamil_Nadu",
+      "relationship": "CULTIVATED_IN",
+      "weight": 2.11,
+      "frequency": null
+    },
+    {
+      "source": "crop_Tea",
+      "target": "state_Telangana",
+      "relationship": "CULTIVATED_IN",
+      "weight": 2.0,
+      "frequency": null
+    },
+    {
+      "source": "crop_Tea",
+      "target": "state_West_Bengal",
+      "relationship": "CULTIVATED_IN",
+      "weight": 1.97,
+      "frequency": null
+    },
+    {
+      "source": "crop_Tea",
+      "target": "climate_Cool_Temperate___Subtropical",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 1.88,
+      "frequency": null
+    },
+    {
+      "source": "crop_Tea",
+      "target": "climate_Humid_Subtropical",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 1.91,
+      "frequency": null
+    },
+    {
+      "source": "crop_Tea",
+      "target": "climate_Tropical_Wet___Monsoon",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 1.98,
+      "frequency": null
+    },
+    {
+      "source": "crop_Tomato",
+      "target": "soil_Alluvial",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 18.82,
+      "frequency": 440
+    },
+    {
+      "source": "crop_Tomato",
+      "target": "soil_Red_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 18.79,
+      "frequency": 461
+    },
+    {
+      "source": "crop_Tomato",
+      "target": "soil_Sandy_Loam",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 18.91,
+      "frequency": 415
+    },
+    {
+      "source": "crop_Tomato",
+      "target": "state_Andhra_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 19.2,
+      "frequency": null
+    },
+    {
+      "source": "crop_Tomato",
+      "target": "state_Karnataka",
+      "relationship": "CULTIVATED_IN",
+      "weight": 19.1,
+      "frequency": null
+    },
+    {
+      "source": "crop_Tomato",
+      "target": "state_Kerala",
+      "relationship": "CULTIVATED_IN",
+      "weight": 18.24,
+      "frequency": null
+    },
+    {
+      "source": "crop_Tomato",
+      "target": "state_Madhya_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 17.68,
+      "frequency": null
+    },
+    {
+      "source": "crop_Tomato",
+      "target": "state_Tamil_Nadu",
+      "relationship": "CULTIVATED_IN",
+      "weight": 20.18,
+      "frequency": null
+    },
+    {
+      "source": "crop_Tomato",
+      "target": "state_Telangana",
+      "relationship": "CULTIVATED_IN",
+      "weight": 18.99,
+      "frequency": null
+    },
+    {
+      "source": "crop_Tomato",
+      "target": "state_West_Bengal",
+      "relationship": "CULTIVATED_IN",
+      "weight": 18.8,
+      "frequency": null
+    },
+    {
+      "source": "crop_Tomato",
+      "target": "climate_Arid_&_Semi-Arid",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 18.17,
+      "frequency": null
+    },
+    {
+      "source": "crop_Tomato",
+      "target": "climate_Cool_Temperate___Subtropical",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 17.73,
+      "frequency": null
+    },
+    {
+      "source": "crop_Tomato",
+      "target": "climate_Semi-Arid_Moderate",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 19.05,
+      "frequency": null
+    },
+    {
+      "source": "crop_Wheat",
+      "target": "soil_Alluvial",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 3.8,
+      "frequency": 786
+    },
+    {
+      "source": "crop_Wheat",
+      "target": "soil_Black_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 3.79,
+      "frequency": 70
+    },
+    {
+      "source": "crop_Wheat",
+      "target": "soil_Clay_Loam",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 3.8,
+      "frequency": 872
+    },
+    {
+      "source": "crop_Wheat",
+      "target": "soil_Laterite_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 3.76,
+      "frequency": 76
+    },
+    {
+      "source": "crop_Wheat",
+      "target": "soil_Red_Soil",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 3.7,
+      "frequency": 106
+    },
+    {
+      "source": "crop_Wheat",
+      "target": "soil_Sandy_Loam",
+      "relationship": "SUITABLE_SOIL",
+      "weight": 3.78,
+      "frequency": 790
+    },
+    {
+      "source": "crop_Wheat",
+      "target": "state_Andhra_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 3.79,
+      "frequency": null
+    },
+    {
+      "source": "crop_Wheat",
+      "target": "state_Bihar",
+      "relationship": "CULTIVATED_IN",
+      "weight": 3.35,
+      "frequency": null
+    },
+    {
+      "source": "crop_Wheat",
+      "target": "state_Gujarat",
+      "relationship": "CULTIVATED_IN",
+      "weight": 3.94,
+      "frequency": null
+    },
+    {
+      "source": "crop_Wheat",
+      "target": "state_Haryana",
+      "relationship": "CULTIVATED_IN",
+      "weight": 4.22,
+      "frequency": null
+    },
+    {
+      "source": "crop_Wheat",
+      "target": "state_Madhya_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 3.49,
+      "frequency": null
+    },
+    {
+      "source": "crop_Wheat",
+      "target": "state_Maharashtra",
+      "relationship": "CULTIVATED_IN",
+      "weight": 3.67,
+      "frequency": null
+    },
+    {
+      "source": "crop_Wheat",
+      "target": "state_Punjab",
+      "relationship": "CULTIVATED_IN",
+      "weight": 4.43,
+      "frequency": null
+    },
+    {
+      "source": "crop_Wheat",
+      "target": "state_Rajasthan",
+      "relationship": "CULTIVATED_IN",
+      "weight": 3.42,
+      "frequency": null
+    },
+    {
+      "source": "crop_Wheat",
+      "target": "state_Tamil_Nadu",
+      "relationship": "CULTIVATED_IN",
+      "weight": 3.94,
+      "frequency": null
+    },
+    {
+      "source": "crop_Wheat",
+      "target": "state_Telangana",
+      "relationship": "CULTIVATED_IN",
+      "weight": 3.74,
+      "frequency": null
+    },
+    {
+      "source": "crop_Wheat",
+      "target": "state_Uttar_Pradesh",
+      "relationship": "CULTIVATED_IN",
+      "weight": 3.8,
+      "frequency": null
+    },
+    {
+      "source": "crop_Wheat",
+      "target": "climate_Arid_&_Semi-Arid",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 3.56,
+      "frequency": null
+    },
+    {
+      "source": "crop_Wheat",
+      "target": "climate_Cool_Temperate___Subtropical",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 3.8,
+      "frequency": null
+    },
+    {
+      "source": "crop_Wheat",
+      "target": "climate_Semi-Arid_Moderate",
+      "relationship": "ADAPTED_CLIMATE",
+      "weight": 3.78,
+      "frequency": null
+    }
+  ],
+  "top_crop_soil_affinities": [
+    {
+      "crop": "Sugarcane",
+      "soil": "Alluvial",
+      "avg_yield": 69.48,
+      "samples": 692
+    },
+    {
+      "crop": "Sugarcane",
+      "soil": "Clay Loam",
+      "avg_yield": 68.94,
+      "samples": 660
+    },
+    {
+      "crop": "Sugarcane",
+      "soil": "Black Soil",
+      "avg_yield": 68.78,
+      "samples": 709
+    },
+    {
+      "crop": "Sugarcane",
+      "soil": "Sandy Loam",
+      "avg_yield": 68.17,
+      "samples": 69
+    },
+    {
+      "crop": "Sugarcane",
+      "soil": "Laterite Soil",
+      "avg_yield": 67.85,
+      "samples": 70
+    },
+    {
+      "crop": "Sugarcane",
+      "soil": "Red Soil",
+      "avg_yield": 67.49,
+      "samples": 63
+    },
+    {
+      "crop": "Potato",
+      "soil": "Laterite Soil",
+      "avg_yield": 23.36,
+      "samples": 64
+    },
+    {
+      "crop": "Potato",
+      "soil": "Sandy Loam",
+      "avg_yield": 22.84,
+      "samples": 887
+    },
+    {
+      "crop": "Potato",
+      "soil": "Red Soil",
+      "avg_yield": 22.7,
+      "samples": 56
+    },
+    {
+      "crop": "Potato",
+      "soil": "Black Soil",
+      "avg_yield": 22.69,
+      "samples": 61
+    }
+  ],
+  "cluster_summaries": [
+    {
+      "cluster_id": 0,
+      "size": 19,
+      "key_nodes": [
+        "Clay Loam",
+        "Andhra Pradesh",
+        "Tamil Nadu",
+        "Onion",
+        "Rajasthan",
+        "Semi-Arid Moderate"
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "size": 14,
+      "key_nodes": [
+        "Assam",
+        "Tropical Wet / Monsoon",
+        "Karnataka",
+        "Laterite Soil",
+        "Coffee",
+        "Tomato"
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "size": 8,
+      "key_nodes": [
+        "Potato",
+        "Mustard",
+        "Bihar",
+        "Sandy Loam",
+        "Uttar Pradesh",
+        "Maize"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "engine": "Apache Spark 3.x/4.x MLlib",
+  "dataset_size": 30000,
+  "best_model": "Spark MLlib Random Forest",
+  "total_execution_time_s": 48.88,
+  "models_comparison": [
+    {
+      "name": "Spark MLlib Linear Regression",
+      "engine": "Apache Spark MLlib",
+      "r2_score": 0.9845,
+      "rmse": 2.2772,
+      "mae": 1.0772,
+      "training_time_s": 2.25,
+      "is_best": false
+    },
+    {
+      "name": "Spark MLlib Decision Tree",
+      "engine": "Apache Spark MLlib",
+      "r2_score": 0.9871,
+      "rmse": 2.0749,
+      "mae": 0.7921,
+      "training_time_s": 2.7,
+      "is_best": false
+    },
+    {
+      "name": "Spark MLlib Random Forest",
+      "engine": "Apache Spark MLlib",
+      "r2_score": 0.9903,
+      "rmse": 1.8002,
+      "mae": 0.7206,
+      "training_time_s": 23.33,
+      "is_best": true
+    }
+  ],
+  "timestamp": "2026-11-13T20:38:30Z"
+}

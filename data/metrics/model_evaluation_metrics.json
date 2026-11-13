@@ -1,0 +1,88 @@
+{
+  "dataset_size": 30000,
+  "train_samples": 24000,
+  "test_samples": 6000,
+  "best_model": "Random Forest Regression",
+  "models_comparison": [
+    {
+      "name": "Linear Regression",
+      "r2_score": 0.9875,
+      "mae": 0.9778,
+      "rmse": 2.022,
+      "is_best": false
+    },
+    {
+      "name": "Decision Tree Regression",
+      "r2_score": 0.9867,
+      "mae": 0.8035,
+      "rmse": 2.091,
+      "is_best": false
+    },
+    {
+      "name": "Random Forest Regression",
+      "r2_score": 0.9921,
+      "mae": 0.6206,
+      "rmse": 1.6125,
+      "is_best": true
+    }
+  ],
+  "feature_importances": [
+    {
+      "feature": "Crop",
+      "importance": 91.35
+    },
+    {
+      "feature": "Potassium_K",
+      "importance": 5.71
+    },
+    {
+      "feature": "Rainfall_mm",
+      "importance": 1.85
+    },
+    {
+      "feature": "State",
+      "importance": 0.31
+    },
+    {
+      "feature": "Temperature_C",
+      "importance": 0.21
+    },
+    {
+      "feature": "Soil_pH",
+      "importance": 0.1
+    },
+    {
+      "feature": "Humidity_pct",
+      "importance": 0.09
+    },
+    {
+      "feature": "Fertilizer_kg_ha",
+      "importance": 0.09
+    },
+    {
+      "feature": "Nitrogen_N",
+      "importance": 0.09
+    },
+    {
+      "feature": "Phosphorus_P",
+      "importance": 0.07
+    },
+    {
+      "feature": "Area_Hectares",
+      "importance": 0.06
+    },
+    {
+      "feature": "District",
+      "importance": 0.04
+    },
+    {
+      "feature": "Soil_Type",
+      "importance": 0.02
+    },
+    {
+      "feature": "Season",
+      "importance": 0.01
+    }
+  ],
+  "evaluation_timestamp": "2026-11-14T01:43:21.151892"
+}
