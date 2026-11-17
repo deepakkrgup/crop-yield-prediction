@@ -1,5 +1,8 @@
+import os
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 from backend.app.config import settings
 from backend.app.db.session import init_db
 from backend.app.services.ml_service import ml_service
@@ -35,15 +38,6 @@ app.include_router(analytics.router, prefix="/api", tags=["Crop Analytics"])
 app.include_router(models.router, prefix="/api", tags=["Machine Learning"])
 app.include_router(graph.router, prefix="/api", tags=["GraphX Agricultural Analysis"])
 
-@app.get("/")
-def root():
-    return {
-        "status": "online",
-        "system": settings.PROJECT_NAME,
-        "version": settings.VERSION,
-        "documentation": "/docs"
-    }
-
 @app.get("/api/health")
 def health():
     return {
@@ -51,3 +45,30 @@ def health():
         "model_loaded": ml_service.model is not None,
         "database": "connected"
     }
+
+# Production Static Files (React build bundle)
+frontend_dist = os.path.join(settings.BASE_DIR, "frontend", "dist")
+if os.path.exists(frontend_dist):
+    assets_dir = os.path.join(frontend_dist, "assets")
+    if os.path.exists(assets_dir):
+        app.mount("/assets", StaticFiles(directory=assets_dir), name="assets")
+
+    @app.get("/{full_path:path}")
+    async def serve_spa(full_path: str):
+        # Don't intercept API or docs
+        if full_path.startswith("api") or full_path in ["docs", "redoc", "openapi.json"]:
+            return None
+        file_path = os.path.join(frontend_dist, full_path)
+        if os.path.exists(file_path) and os.path.isfile(file_path):
+            return FileResponse(file_path)
+        return FileResponse(os.path.join(frontend_dist, "index.html"))
+else:
+    @app.get("/")
+    def root():
+        return {
+            "status": "online",
+            "system": settings.PROJECT_NAME,
+            "version": settings.VERSION,
+            "documentation": "/docs",
+            "note": "Frontend dist folder not detected. Run 'npm run build' inside frontend/ to serve UI."
+        }
